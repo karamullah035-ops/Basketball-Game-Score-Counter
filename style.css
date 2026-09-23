@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    background: radial-gradient(circle at top, #2B1055 0%, #0F0524 60%, #070212 100%);
+    text-align: center;
+    min-height: 100vh;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.team-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 42px;
+    color: #F4E9FF;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.score {
+    font-family: "Bebas Neue";
+    font-size: 130px;
+    color: #FFC857;
+    background-color: #1C0F3E;
+    padding: 3px 46px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    border-radius: 18px;
+    box-shadow: 0 0 25px rgba(255, 200, 87, 0.35);
+    border: 1px solid rgba(255, 200, 87, 0.25);
+}
+
+.score-buttons button {
+    font-family: "Orbitron";
+    padding: 5px 10px;
+    background-color: transparent;
+    border: 2px solid #3EC1D3;
+    border-radius: 5px;
+    color: #3EC1D3;
+    margin: 0 6px;
+    cursor: pointer;
+    font-size: 22px;
+    min-width: 44px;
+}
+
+.score-buttons button:hover {
+    background-color: #3EC1D3;
+    color: #101014;
+}
